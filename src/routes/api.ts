@@ -1,12 +1,12 @@
-import KoaRouter from '@koa/router'
+import KoaRouter from "@koa/router"
 
 const router = new KoaRouter()
 
 /**
  * Routes go here
  */
-router.get('/', (ctx) => {
-    ctx.body = 'Hello, world'
+router.get("/", (ctx) => {
+	ctx.body = "Hello, world"
 })
 
 

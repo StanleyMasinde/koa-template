@@ -1,12 +1,12 @@
-import koa from 'koa'
+import koa from "koa"
 
 // Local app imports
-import { apiRoutes, apiMethods } from './routes/api'
+import { apiRoutes, apiMethods } from "./routes/api"
 
 // Start of app
 const app = new koa()
 app.use(apiRoutes)
-    .use(apiMethods)
+	.use(apiMethods)
 
 
 // Export the app to be used to create server.
