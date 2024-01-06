@@ -1,4 +1,4 @@
- 
+[![Build and test](https://github.com/StanleyMasinde/koa-template/actions/workflows/node.js.yml/badge.svg)](https://github.com/StanleyMasinde/koa-template/actions/workflows/node.js.yml) 
 ## Koa Template
 
 A Koa.js starter template for APIs
